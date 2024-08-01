@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-require('dotenv').config();
+require('dotenv').config(); // Load environment variables from .env file
 
 const filePath = path.join(__dirname, 'index.html');
 const apiKey = process.env.OPEN_API_KEY;
